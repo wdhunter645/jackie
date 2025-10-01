@@ -24,9 +24,11 @@ export default function Navbar() {
 
 const styles = {
   nav: {
-    backgroundColor: '#0051ba',
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
     padding: '1rem 0',
-    boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+    boxShadow: '0 4px 6px rgba(0,0,0,0.1)',
+    backdropFilter: 'blur(10px)',
+    WebkitBackdropFilter: 'blur(10px)',
   },
   container: {
     maxWidth: '1200px',
@@ -43,16 +45,18 @@ const styles = {
   },
   number: {
     backgroundColor: '#ffffff',
-    color: '#0051ba',
+    color: '#667eea',
     fontSize: '1.5rem',
     fontWeight: 'bold',
     padding: '0.25rem 0.75rem',
-    borderRadius: '4px',
+    borderRadius: '8px',
+    boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
   },
   brandText: {
     color: '#ffffff',
     fontSize: '1.25rem',
     fontWeight: 'bold',
+    textShadow: '0 2px 4px rgba(0,0,0,0.2)',
   },
   navLinks: {
     display: 'flex',
@@ -70,5 +74,6 @@ const styles = {
     fontSize: '1rem',
     fontWeight: '500',
     transition: 'opacity 0.2s',
+    textShadow: '0 1px 2px rgba(0,0,0,0.2)',
   },
 };
