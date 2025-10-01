@@ -1,9 +1,8 @@
 {
   "dependencies": {
-    "@netlify/plugin-nextjs": "^5.13.3"
-  "next": "^13.4.0",      
-  "react": "^18.2.0",     
-  "react-dom": "^18.2.0"
-}
+    "@netlify/plugin-nextjs": "^45.13.3",
+    "next": "^13.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
