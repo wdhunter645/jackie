@@ -3,7 +3,7 @@ export default function HeroBanner() {
     <section style={styles.hero}>
       <div style={styles.container}>
         <h1 style={styles.title}>
-          Breaking Barriers, Building Legends
+          Jackie Robinson Fan Club
         </h1>
         <p style={styles.subtitle}>
           Celebrating the life and legacy of Jackie Robinson - the first African American 
