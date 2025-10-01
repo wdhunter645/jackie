@@ -1,2 +1,38 @@
 # Local Netlify folder
 .netlify
+
+# Node modules
+node_modules/
+
+# Next.js build output
+.next/
+
+# Local environment variables
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Mac system files
+.DS_Store
+
+# Optional: Ignore build output for static export
+/out/
+
+# Netlify build cache (optional)
+.netlify/
+
+# Optional: Ignore VSCode settings
+.vscode/
+
+# Ignore coverage reports
+coverage/
+
+# Ignore IDE settings
+.idea/
+*.sublime-workspace
+*.sublime-project
