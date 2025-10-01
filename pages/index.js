@@ -24,14 +24,16 @@ const styles = {
     minHeight: '100vh',
     display: 'flex',
     flexDirection: 'column',
+    background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
   },
   main: {
     flex: 1,
   },
   footer: {
-    backgroundColor: '#212529',
+    backgroundColor: 'rgba(33, 37, 41, 0.95)',
     padding: '2rem 0',
     textAlign: 'center',
+    backdropFilter: 'blur(10px)',
   },
   footerText: {
     color: '#ffffff',
